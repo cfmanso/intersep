@@ -1,0 +1,20 @@
+@import 'definitions';
+$img-card-width: 22.5em;
+$img-card-height: 200px;
+
+
+.section-projetos{
+    margin-bottom: 100px;
+    .canva{
+        margin: 4px;
+        background-repeat: no-repeat;
+        background-position: center;
+        //background-size: cover;
+        height: $img-card-height;
+        max-width: $img-card-width;
+        width: 90vw;
+        //border: 1px solid black;
+        object-fit: cover;
+    }
+
+}

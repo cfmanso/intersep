@@ -1,0 +1,42 @@
+/* -- GLOBALS -- */
+/* -- Menu -- */
+.breadcrumb {
+  padding: 0px;
+  height: 300px;
+  background-image: url("../img/breadcrumb-completo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px;
+  color: #556624;
+  transition: all 0.4s linear; }
+  .breadcrumb .container {
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto; }
+  .breadcrumb .breadcrumb-delimiter {
+    margin: 0px 5px; }
+  .breadcrumb .current {
+    display: block;
+    font-size: 60px; }
+  .breadcrumb a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px; }
+  .breadcrumb .current {
+    color: #FFFFFF;
+    font-size: 83px; }
+  @media screen and (max-width: 768px) {
+    .breadcrumb {
+      height: 150px; }
+      .breadcrumb a {
+        font-size: 12px; }
+      .breadcrumb .current {
+        font-size: 40px; } }
+  @media screen and (max-width: 768px) {
+    .breadcrumb {
+      height: auto; }
+      .breadcrumb .current {
+        font-size: 35px; } }
+
+/*# sourceMappingURL=breadcrumb.css.map */

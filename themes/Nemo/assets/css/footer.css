@@ -1,0 +1,58 @@
+/* -- GLOBALS -- */
+/* -- Menu -- */
+.footer-default {
+  padding: 50px;
+  min-height: 500px;
+  background-image: url(../img/nemo_footer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100px;
+  height: auto; }
+  .footer-default .text_default {
+    font-size: 18px;
+    margin-bottom: 20px; }
+    .footer-default .text_default .text_title {
+      color: #ABD500;
+      font-size: 22px;
+      line-height: 50px;
+      align-items: center;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      margin-bottom: 5px; }
+    .footer-default .text_default .img_icon {
+      width: 15px;
+      margin-right: 5px; }
+  .footer-default .img_logo {
+    margin-top: -100px;
+    float: right;
+    text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  .footer-default {
+    padding: 50px;
+    min-height: 500px;
+    background-image: url(../img/nemo_footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+    height: auto; }
+    .footer-default .text_default {
+      font-size: 18px;
+      margin-bottom: 20px; }
+      .footer-default .text_default .text_title {
+        color: #ABD500;
+        font-size: 22px;
+        line-height: 50px;
+        align-items: center;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        margin-bottom: 5px; }
+      .footer-default .text_default .img_icon {
+        width: 15px;
+        margin-right: 5px; }
+    .footer-default .img_logo {
+      margin-top: 0px;
+      float: right;
+      text-align: center; } }
+
+/*# sourceMappingURL=footer.css.map */

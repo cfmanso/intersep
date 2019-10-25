@@ -1,0 +1,89 @@
+/*
+Theme Name: Nemo
+Theme URI: https://github.com/stiamat/theme-nemo
+Author: Félix Zanetti, Murilo Borghardt
+Description: Nemo's site Theme
+Version: 1.0
+
+*/
+
+@import "assets/css/definitions";
+
+html{ 
+    height: 100%;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    color: $font-color;
+    // background-color: #777;
+}
+
+a{
+    color: inherit;
+
+    &:hover{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.header-quadro{
+    margin-top: 100px;
+    display: block;
+    margin-bottom: 2%;
+
+    .info-quadro{
+        margin-bottom:-7px;
+        color: $verde-nemo;
+        
+        .pre-title-header-quadro{
+            color: $verde-line;
+            text-align: left;
+            margin-bottom:-5px;
+        }
+        .title-header-quadro{
+            text-align: left;
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+        .link-title-header-quadro{
+            color: $verde-line;
+            margin-top: 13px;
+            float: right;
+        }
+    }
+
+    .hr-default{
+        padding: 0px;
+        display: block;
+
+        .hr-principal{
+            padding: 0px;
+            margin-bottom: 30px;
+            display: inline-block;
+            border-color: $verde-line;
+            border-width: 3px;
+        }
+
+        .hr-secundario{
+            margin-bottom: 30px;
+            display: inline-block;
+            border-color: $cinza-line-default;
+            border-width: 2px;
+        }
+    }
+}
+
+.img-default-center{
+    text-align: center;
+    margin: 50px;
+}
+
+.link-cor-nemo{
+
+    a, a:hover{
+        color:$verde-escuro;
+    }
+    
+}

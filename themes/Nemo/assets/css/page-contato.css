@@ -1,0 +1,57 @@
+/* -- GLOBALS -- */
+/* -- Menu -- */
+.contato {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #556624; }
+  .contato .titulo-nemo {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ABD500; }
+  .contato .info-nemo {
+    margin-bottom: 40px;
+    margin-top: 40px; }
+    .contato .info-nemo .img_icon {
+      margin-right: 10px; }
+  .contato .form-nemo .box {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px; }
+  .contato .form-nemo .box-first {
+    width: 100%;
+    display: inline-block; }
+  .contato .form-nemo .box-input-sms {
+    width: 100%; }
+  .contato .form-nemo .box-input-text {
+    width: 100%; }
+  .contato .form-nemo .box-button {
+    background: #abc738;
+    border: 1px solid #abc738;
+    border-radius: 5px;
+    color: white; }
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 5px 2px;
+  border: 1px solid #ABD500;
+  border-radius: 0px;
+  background: transparent;
+  resize: none; }
+
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ABD500;
+  border-radius: 0;
+  color: black;
+  background: transparent;
+  font-size: 16px; }
+  input:focus {
+    outline: none; }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 1px 1000px white inset;
+    -webkit-text-fill-color: white !important; }
+
+/*# sourceMappingURL=page-contato.css.map */

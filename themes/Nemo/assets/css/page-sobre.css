@@ -1,0 +1,22 @@
+/* -- GLOBALS -- */
+/* -- Menu -- */
+.text-sobre {
+  padding: 20px;
+  line-height: 1.8;
+  text-align: justify;
+  color: black; }
+
+.body-sobre {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .body-sobre .img-default {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+    .body-sobre .img-default .img-nemo {
+      max-width: 260px;
+      width: 35%; }
+  .body-sobre .sobre-list {
+    color: #6A7D2C; }
+
+/*# sourceMappingURL=page-sobre.css.map */

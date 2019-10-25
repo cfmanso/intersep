@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*
+Theme Name: Nemo
+Theme URI: https://github.com/stiamat/theme-nemo
+Author: Félix Zanetti, Murilo Borghardt
+Description: Nemo's site Theme
+Version: 1.0
+
+*/
+/* -- GLOBALS -- */
+/* -- Menu -- */
+html {
+  height: 100%; }
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  color: #7f7f7f; }
+
+a {
+  color: inherit; }
+  a:hover {
+    text-decoration: none;
+    color: inherit; }
+
+.header-quadro {
+  margin-top: 100px;
+  display: block;
+  margin-bottom: 2%; }
+  .header-quadro .info-quadro {
+    margin-bottom: -7px;
+    color: #abc738; }
+    .header-quadro .info-quadro .pre-title-header-quadro {
+      color: #6A7D2C;
+      text-align: left;
+      margin-bottom: -5px; }
+    .header-quadro .info-quadro .title-header-quadro {
+      text-align: left;
+      font-size: 30px;
+      margin-bottom: 0px; }
+    .header-quadro .info-quadro .link-title-header-quadro {
+      color: #6A7D2C;
+      margin-top: 13px;
+      float: right; }
+  .header-quadro .hr-default {
+    padding: 0px;
+    display: block; }
+    .header-quadro .hr-default .hr-principal {
+      padding: 0px;
+      margin-bottom: 30px;
+      display: inline-block;
+      border-color: #6A7D2C;
+      border-width: 3px; }
+    .header-quadro .hr-default .hr-secundario {
+      margin-bottom: 30px;
+      display: inline-block;
+      border-color: #C4C4C4;
+      border-width: 2px; }
+
+.img-default-center {
+  text-align: center;
+  margin: 50px; }
+
+.link-cor-nemo a, .link-cor-nemo a:hover {
+  color: #556624; }
+
+/*# sourceMappingURL=style.css.map */

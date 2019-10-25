@@ -1,0 +1,89 @@
+@import 'definitions';
+
+$item-height: 220px;
+$item-width: 220px;
+$canva-height: 520px;
+$canva-width: 320px;
+$space-between-items: 10px;
+
+.canva-sigle-equipe{
+    //display: inline-block;
+    float: left;
+    margin: 2%;
+    width: $canva-width;
+    height: auto;
+    min-height: $canva-height;
+    background-color: $cinza-line-alfa;
+    padding: 20px;
+    margin-right: 100px;
+
+    .img-sigle-equipe{
+        display: block;
+        //position: relative;
+        width: $item-width;
+        height: $item-height;
+        padding: 0px;
+        margin: 0 auto;
+        
+        .img-default{
+            height: $item-height;
+            width: $item-width;
+            object-fit: cover;
+            //height: auto;
+    
+        }
+        .hr-img{
+            display: block;
+            border-color: $verde-nemo;
+            border-width: 7px;
+            margin-top: -0px;
+        }
+    }
+
+    .img-link-lattes{
+        margin-bottom: 4px;
+        width: 20px;
+        height: auto;
+    }
+
+
+    
+}
+
+.text-single-equipe{
+    //display: inline-block;
+    padding: 20px;
+    // text-indent: 50px;
+    line-height: 1.8;
+    text-align: justify;
+    color: black;
+
+    .default-single-equipe{
+        text-indent: 0px;
+        line-height: 1.4;
+        text-align: left;
+        color: $verde-nome-single-equipe;
+    }
+
+    .lattes{
+        color: $cinza-lattes;
+        font-weight: bold;
+    }
+
+    .name-single-equipe{
+        text-indent: 0px;
+        line-height: 1;
+        // margin-left: 0 auto;
+        // margin-right: 0 auto;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: left;
+        color: $verde-nome-single-equipe;
+    }
+}
+
+.extra-area{
+    background:  $cinza-line-alfa;
+}
+
+

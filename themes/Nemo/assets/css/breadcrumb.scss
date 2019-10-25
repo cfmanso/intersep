@@ -1,0 +1,67 @@
+
+@import 'definitions';
+$breadcrumb-height: 300px;
+$breadcrumb-height-md: 150px;
+
+$breadcrumb-height-sm: auto;
+
+.breadcrumb{
+    padding: 0px;
+    height: $breadcrumb-height;
+    background-image: url('../img/breadcrumb-completo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px;
+    color: $verde-escuro;
+
+    transition: all 0.4s linear; 
+
+    .container{
+        height: fit-content;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .breadcrumb-delimiter{
+        margin: 0px 5px;
+    }
+
+    .current{
+        display: block;
+        font-size: 60px;
+    }
+
+    a{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .current{
+        color: #FFFFFF;
+        font-size: 83px;
+    }
+
+    @media screen and(max-width: $md){
+        height: $breadcrumb-height-md;
+
+        a{
+            font-size: 12px;
+        }
+
+        .current{
+            font-size: 40px;
+        }
+        
+    }
+
+    @media screen and(max-width: $md){
+        height: $breadcrumb-height-sm;
+
+        .current{
+            font-size: 35px;
+        }
+        
+    }
+}

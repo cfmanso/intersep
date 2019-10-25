@@ -1,0 +1,122 @@
+@import 'definitions';
+
+.canva-default{
+    margin-top:100px;
+    margin-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .canva-inf-archive{
+        margin: 0 auto;
+        padding: 0px;
+        .text-principal{
+            font-size: 45px;
+            font-weight: 300;
+            line-height: 123%;
+            color: $verde-quase-nemo;
+            margin-bottom: 0px;
+        }
+        .hr-default{
+            border-width: 2px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+        .text{
+            text-align: justify;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    
+    }
+    
+    .canva-card-professor{
+        max-width: 180px;
+        background-color: transparent;
+        text-align: center;
+        display: inline-block;
+        border: 0px;
+        .canva-img-archive{
+
+            width: 165px;
+            height:165px;
+            object-fit: cover;
+            margin: 4px;
+            padding: 0px;        
+        }
+        .text{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+
+    .canva-card-graduate{
+        max-width: 90px;
+        text-align: center;
+        display: inline-block;
+        border: 0px;
+        .canva-img-archive{
+
+            width: 80px;
+            height:80px;
+            object-fit: cover;
+            margin: 4px;
+            padding: 0px;        
+        }
+        .text{
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+
+    .canva-card-former{
+        max-width: 90px;
+        text-align: center;
+        display: inline-block;
+        margin-top: 100px;
+        border: 0px;
+        .canva-img-archive{
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            transition: all 0.5s;
+            width: 80px;
+            height:80px;
+            object-fit: cover;
+            margin: 4px;
+            padding: 0px;        
+        }
+        .canva-img-archive:hover{
+            transition: all 0.5s;
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);     
+        }
+    }
+
+    .canva-card-projetos{
+        max-width: 250px;
+        background-color: transparent;
+        text-align: center;
+        display: inline-block;
+        border: 0px;
+        .canva-img-archive{
+            width: 235px;
+            height:185px;
+            object-fit: scale-down;
+            //border: 1px solid black;
+            margin: 4px;
+            padding: 0px;        
+        }
+        .text{
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+
+}
+
+.container-graduate{
+    background:linear-gradient(270deg, rgba(171, 196, 86, 0.20) -7.15%, rgba(188, 196, 162, 0.181802) 59.1%, rgba(196, 196, 196, 0) 93.13%);
+}

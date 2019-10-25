@@ -1,0 +1,40 @@
+/* -- GLOBALS -- */
+/* -- Menu -- */
+.carousel-equipe .carousel-equipe-item .info-side, .carousel-equipe .carousel-equipe-item .image-side {
+  height: 200px; }
+
+.carousel-equipe {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  height: 200px;
+  z-index: auto; }
+  .carousel-equipe .carousel-equipe-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 4px;
+    height: 100%; }
+    .carousel-equipe .carousel-equipe-item .info-side {
+      width: 150px !important;
+      background-color: #c4c4c473; }
+      .carousel-equipe .carousel-equipe-item .info-side .text-config {
+        padding: 20px;
+        padding-bottom: 5px;
+        color: #556624;
+        font-weight: bold; }
+      .carousel-equipe .carousel-equipe-item .info-side .hr-config {
+        border-color: #556624;
+        border-width: 1px; }
+    .carousel-equipe .carousel-equipe-item .image-side {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #abc738 !important; }
+
+.owl-theme .owl-dots .owl-dot span {
+  background: transparent !important;
+  border: 1px solid #abc738 !important; }
+
+/*# sourceMappingURL=carousel-equipe.css.map */

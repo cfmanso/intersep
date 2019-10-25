@@ -1,0 +1,56 @@
+/* -- GLOBALS -- */
+/* -- Menu -- */
+.canva-sigle-equipe {
+  float: left;
+  margin: 2%;
+  width: 320px;
+  height: auto;
+  min-height: 520px;
+  background-color: #c4c4c473;
+  padding: 20px;
+  margin-right: 100px; }
+  .canva-sigle-equipe .img-sigle-equipe {
+    display: block;
+    width: 220px;
+    height: 220px;
+    padding: 0px;
+    margin: 0 auto; }
+    .canva-sigle-equipe .img-sigle-equipe .img-default {
+      height: 220px;
+      width: 220px;
+      object-fit: cover; }
+    .canva-sigle-equipe .img-sigle-equipe .hr-img {
+      display: block;
+      border-color: #abc738;
+      border-width: 7px;
+      margin-top: -0px; }
+  .canva-sigle-equipe .img-link-lattes {
+    margin-bottom: 4px;
+    width: 20px;
+    height: auto; }
+
+.text-single-equipe {
+  padding: 20px;
+  line-height: 1.8;
+  text-align: justify;
+  color: black; }
+  .text-single-equipe .default-single-equipe {
+    text-indent: 0px;
+    line-height: 1.4;
+    text-align: left;
+    color: #637321; }
+  .text-single-equipe .lattes {
+    color: #827B7B;
+    font-weight: bold; }
+  .text-single-equipe .name-single-equipe {
+    text-indent: 0px;
+    line-height: 1;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    color: #637321; }
+
+.extra-area {
+  background: #c4c4c473; }
+
+/*# sourceMappingURL=single-equipe.css.map */

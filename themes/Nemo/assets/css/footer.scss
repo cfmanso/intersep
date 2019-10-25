@@ -1,0 +1,77 @@
+@import "definitions";
+$footer-height:500px;
+
+.footer-default{
+    padding: 50px;
+    min-height: $footer-height;
+    background-image: url(../img/nemo_footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+    height: auto;
+
+    .text_default{
+        font-size: 18px;
+        margin-bottom: 20px;
+        .text_title{
+            color: $verde-text-footer;
+            font-size: 22px;
+            line-height: 50px;
+            align-items: center;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+            margin-bottom: 5px;
+        }
+
+        .img_icon{
+            width: 15px;
+            margin-right: 5px;
+        }
+
+        
+    }
+    .img_logo{
+        margin-top: -100px;
+        float: right;
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .footer-default{
+        padding: 50px;
+        min-height: $footer-height;
+        background-image: url(../img/nemo_footer.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100px;
+        height: auto;
+    
+        .text_default{
+            font-size: 18px;
+            margin-bottom: 20px;
+            .text_title{
+                color: $verde-text-footer;
+                font-size: 22px;
+                line-height: 50px;
+                align-items: center;
+                font-feature-settings: 'tnum' on, 'lnum' on;
+                margin-bottom: 5px;
+            }
+    
+            .img_icon{
+                width: 15px;
+                margin-right: 5px;
+            }
+    
+            
+        }
+        .img_logo{
+            margin-top: 0px;
+            float: right;
+            text-align: center;
+        }
+        
+    }
+}

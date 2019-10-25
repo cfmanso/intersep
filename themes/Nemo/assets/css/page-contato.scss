@@ -1,0 +1,85 @@
+@import 'definitions';
+
+.contato{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: $verde-escuro;
+    
+    .titulo-nemo{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 26px;
+        color: $verde-text-footer;
+    }
+
+    .info-nemo{
+        margin-bottom: 40px;
+        margin-top: 40px;
+        
+        .img_icon{
+            margin-right: 10px;
+        }    
+    }
+
+    .form-nemo{
+        .box{
+            width: 100%;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .box-first{
+            width: 100%;
+            display: inline-block;
+        }
+        .box-input-sms {
+            width: 100%;
+            
+            // border: 1px color black;
+        }
+        .box-input-text{
+            width: 100%;
+            // height: 150px;
+        }
+        .box-button{
+            background: $verde-nemo;
+            border: 1px solid $verde-nemo;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+
+}
+
+textarea{
+    width: 100%;
+    height: 120px;
+    padding: 5px 2px;
+    border: 1px solid $verde-text-footer;
+    border-radius: 0px;
+    background: transparent;
+    resize: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid $verde-text-footer;
+  border-radius: 0; // For iOS
+  // border-bottom: solid $width/150 rgba(white, .5);
+  color: black;
+  background: transparent;
+  font-size: 16px;
+  
+  &:focus {
+    outline: none;
+    // border-bottom-color: $secondary-color;
+  }
+
+  // Stop Chrome's hideous pale yellow background on auto-fill
+  
+  &:-webkit-autofill {
+    -webkit-box-shadow: 0 0 1px 1000px white inset;
+    -webkit-text-fill-color: white !important;
+    // border-bottom-color: rgba(white, .5);
+  }
+}

@@ -1,0 +1,14 @@
+/* -- GLOBALS -- */
+/* -- Menu -- */
+.section-projetos {
+  margin-bottom: 100px; }
+  .section-projetos .canva {
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    max-width: 22.5em;
+    width: 90vw;
+    object-fit: cover; }
+
+/*# sourceMappingURL=section-projetos.css.map */

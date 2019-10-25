@@ -1,0 +1,60 @@
+@import 'definitions';
+
+$item-height: 200px;
+$space-between-items: 10px;
+
+%item-side{
+    // width: 50%;
+    height: $item-height;
+    // display: inline;
+}
+
+
+.carousel-equipe{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    height: $item-height;
+    z-index: auto;
+
+    .carousel-equipe-item{
+        padding-left: $space-between-items;
+        padding-right: $space-between-items;
+        padding: 4px;
+        height: 100%;
+        
+        .info-side{
+            @extend %item-side;
+            width: 150px !important;
+            background-color: $cinza-line-alfa;
+            
+            .text-config{
+                padding: 20px;
+                padding-bottom: 5px;
+                color: $verde-escuro;
+                font-weight: bold;
+            }
+
+            .hr-config{
+                border-color: $verde-escuro;
+                border-width: 1px;
+            }
+        }
+        
+        .image-side{
+            @extend %item-side;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: $verde-nemo !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: transparent !important;
+    border: 1px solid $verde-nemo !important;
+}

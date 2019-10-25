@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAmB;AA0BnB,gBAAgB;ACrBhB,iBAAiB;EACb,aAAa,EAAE,KAAK;EACpB,wBAAM;IACF,MAAM,EAAE,GAAG;IACX,iBAAiB,EAAE,SAAS;IAC5B,mBAAmB,EAAE,MAAM;IAE3B,MAAM,EAVI,KAAK;IAWf,SAAS,EAZA,MAAM;IAaf,KAAK,EAAE,IAAI;IAEX,UAAU,EAAE,KAAK",
+"sources": ["definitions.scss","section-projetos.scss"],
+"names": [],
+"file": "section-projetos.css"
+}
