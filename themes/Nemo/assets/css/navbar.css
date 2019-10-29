@@ -16,7 +16,7 @@
   height: 66px;
   line-height: 66px;
   color: #556624;
-  background-color: #383838;
+  background-color: #fff;
   font-size: 14px;
   z-index: 10; }
 
@@ -62,10 +62,9 @@
         .menu .menu-principal > li .sub-menu li:hover {
           background-color: #E5E5E5;
           transition: all 0.2s; }
-      /* .menu .menu-principal > li:hover {
-        background-color: #E5E5E5;
+      .menu .menu-principal > li:hover {
         -webkit-transition: all 0.2s;
-        transition: all 0.2s; } */
+        transition: all 0.2s; }
         .menu .menu-principal > li:hover .sub-menu {
           display: contents;
           -webkit-transition: all 0.2s;

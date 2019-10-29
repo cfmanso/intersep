@@ -46,11 +46,10 @@ $mobile-padding: 20px;
 
 /* MENU */
 .menu {
-  float: right;
+  text-align: center;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #383838;
 
-  
   .menu-principal{
     height: 100%;
     margin: 0px;
@@ -90,7 +89,6 @@ $mobile-padding: 20px;
       }
 
       &:hover{
-        background-color: $menu-selected-color;
         -webkit-transition: all 0.2s;
         transition: all 0.2s;
 
@@ -107,7 +105,7 @@ $mobile-padding: 20px;
   }
 
   a {
-    color: $menu-font-color;
+    color: #FFF;
     margin: 0 10px;
     // padding: 5px 0px;
     // width: 100%;
@@ -117,6 +115,7 @@ $mobile-padding: 20px;
 
     &:hover {
       // border-bottom: 2px solid $verde-nemo;
+      color: #5DC1D3;
       text-decoration: none;
       
     }

@@ -46,6 +46,7 @@
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/page-sobre.css" rel="stylesheet">
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/archive-projetos.css" rel="stylesheet">
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/page-contato.css" rel="stylesheet">
+        <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/section-conheca.css" rel="stylesheet">
         <!-- <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/page-publicacoes.css" rel="stylesheet"> -->
 
 
