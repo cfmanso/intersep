@@ -1,0 +1,39 @@
+.conheca-quadro {
+  height: 671px;
+  width: 100%;
+  background-color: #FFF; }
+
+.titulo-conheca {
+  font-family: Titillium Web;
+  color: #278090;
+  font-size: 45px;
+  margin-left: 120px;
+  margin-top: 126px; }
+
+.subtitulo-conheca {
+  font-family: 'Lato', sans-serif;
+  color: #383838;
+  font-size: 20px; }
+
+.img-quadrada {
+  height: 52px;
+  width: 52px; }
+
+.img-retangular {
+  height: 52px;
+  width: 38px; }
+
+.text-conheca {
+  font-family: 'Lato', sans-serif;
+  color: #757575;
+  float: left; }
+
+.linha {
+  display: table;
+  margin: 5px; }
+
+.celula {
+  float: left;
+  padding-left: 126px; }
+
+/*# sourceMappingURL=conheca.css.map */
