@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$muriel-gray-700".
-        on line 3 of C:\xampp\apps\wordpress\htdocs\wp-content\plugins\jetpack\modules\calypsoify\gutenberg-styles\button.scss
+        on line 3 of C:\xampp\htdocs\ufodocs.dev.nemo.inf.ufes\wp-content\plugins\jetpack\modules\calypsoify\gutenberg-styles\button.scss
 
 1: .components-button {
 2: 	&.is-default {
@@ -12,7 +12,7 @@ Error: Undefined variable: "$muriel-gray-700".
 8: 
 
 Backtrace:
-C:\xampp\apps\wordpress\htdocs\wp-content\plugins\jetpack\modules\calypsoify\gutenberg-styles\button.scss:3
+C:\xampp\htdocs\ufodocs.dev.nemo.inf.ufes\wp-content\plugins\jetpack\modules\calypsoify\gutenberg-styles\button.scss:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -70,4 +70,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$muriel-gray-700\".\A         on line 3 of C:\xampp\apps\wordpress\htdocs\wp-content\plugins\jetpack\modules\calypsoify\gutenberg-styles\button.scss\A \A 1: .components-button {\A 2: 	&.is-default {\A 3: 		color: $muriel-gray-700;\A 4: 		border-color: $muriel-gray-100;\A 5: 		background: $white;\A 6: 		box-shadow: none;\A 7: 		border-width: 1px 1px 2px;\A 8: "; }
+  content: "Error: Undefined variable: \"$muriel-gray-700\".\A         on line 3 of C:\xampp\htdocs\ufodocs.dev.nemo.inf.ufes\wp-content\plugins\jetpack\modules\calypsoify\gutenberg-styles\button.scss\A \A 1: .components-button {\A 2: 	&.is-default {\A 3: 		color: $muriel-gray-700;\A 4: 		border-color: $muriel-gray-100;\A 5: 		background: $white;\A 6: 		box-shadow: none;\A 7: 		border-width: 1px 1px 2px;\A 8: "; }

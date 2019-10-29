@@ -21,7 +21,6 @@ $egressos = getInativos();
         <?php include_once("sections/navbar.php"); ?>
 
         <div class="site-content">
-            <?php include_once("sections/section-breadcrumb.php"); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-sm-12 contato">

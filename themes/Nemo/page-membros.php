@@ -30,9 +30,75 @@ get_header();
                         <div class="col-1"></div>
                         <div class="col-6"></div>
                     </div>
-
                     
+                    <div style="text-align: center">
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members">
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m1.png">
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m2.png">
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m3.png">
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m4.png">
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m5.png">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div style="text-align: center">
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m6.png">
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m7.png">
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m8.png">
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m9.png">
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="sobre-img-members" >
+                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m10.png">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
+                
 
                 <div class="body-sobre">
                     <div class="row canva-default" style="margin:0px;">
