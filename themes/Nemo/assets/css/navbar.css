@@ -16,7 +16,7 @@
   height: 66px;
   line-height: 66px;
   color: #556624;
-  background-color: #fff;
+  background-color: #383838;
   font-size: 14px;
   z-index: 10; }
 
@@ -30,9 +30,9 @@
 
 /* MENU */
 .menu {
-  float: right;
+  text-align: center;
   height: 100%;
-  background-color: #ffffff; }
+  background-color: #383838; }
   .menu .menu-principal {
     height: 100%;
     margin: 0px;
@@ -62,21 +62,22 @@
         .menu .menu-principal > li .sub-menu li:hover {
           background-color: #E5E5E5;
           transition: all 0.2s; }
-      .menu .menu-principal > li:hover {
+      /* .menu .menu-principal > li:hover {
         background-color: #E5E5E5;
         -webkit-transition: all 0.2s;
-        transition: all 0.2s; }
+        transition: all 0.2s; } */
         .menu .menu-principal > li:hover .sub-menu {
           display: contents;
           -webkit-transition: all 0.2s;
           transition: all 0.2s; }
   .menu a {
-    color: #556624;
+    color: #FFF;
     margin: 0 10px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400; }
     .menu a:hover {
+      color: #5DC1D3;
       text-decoration: none; }
 
 /* RESPONSIVE */

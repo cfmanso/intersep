@@ -3,7 +3,7 @@
 .footer-default {
   padding: 50px;
   min-height: 500px;
-  background-image: url(../img/nemo_footer.png);
+  background-image: url(../img/footer-img.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,7 +13,7 @@
     font-size: 18px;
     margin-bottom: 20px; }
     .footer-default .text_default .text_title {
-      color: #ABD500;
+      color: #5DC1D3;
       font-size: 22px;
       line-height: 50px;
       align-items: center;
@@ -31,7 +31,7 @@
   .footer-default {
     padding: 50px;
     min-height: 500px;
-    background-image: url(../img/nemo_footer.png);
+    background-image: url(../img/footer-img.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -10,7 +10,7 @@
             
             <div class="container">    
 
-                <?php include_once("sections/section-equipe.php"); ?>
+                <?php include_once("sections/section-conheca.php"); ?>
                 
                 <?php include_once("sections/section-projetos.php"); ?>
 
