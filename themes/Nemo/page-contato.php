@@ -37,7 +37,7 @@ $egressos = getInativos();
                         <div class="info-nemo">
                             <div>
                                 <span>
-                                    <img class="img_icon" src="<?php echo get_stylesheet_directory_uri();?>/assets/img/phone-call.png">
+                                    <img class="img_icon" src="<?php echo get_stylesheet_directory_uri();?>/assets/img/phone-call.svg">
                                 </span>
                                 <span>
                                     +55 27 4009-2137
@@ -45,7 +45,7 @@ $egressos = getInativos();
                             </div>
                             <div>
                                 <span>
-                                    <img class="img_icon" src="<?php echo get_stylesheet_directory_uri();?>/assets/img/mail.png"  >
+                                    <img class="img_icon" src="<?php echo get_stylesheet_directory_uri();?>/assets/img/mail.svg"  >
                                 </span>
                                 <span>
                                     nemo.adm@inf.ufes.br
