@@ -42,20 +42,21 @@ a {
       color: #6A7D2C;
       margin-top: 13px;
       float: right; }
-  .header-quadro .hr-default {
+
+.hr-default {
+  padding: 0px;
+  display: block; }
+  .hr-default .hr-principal {
     padding: 0px;
-    display: block; }
-    .header-quadro .hr-default .hr-principal {
-      padding: 0px;
-      margin-bottom: 30px;
-      display: inline-block;
-      border-color: #6A7D2C;
-      border-width: 3px; }
-    .header-quadro .hr-default .hr-secundario {
-      margin-bottom: 30px;
-      display: inline-block;
-      border-color: #C4C4C4;
-      border-width: 2px; }
+    width: 50px;
+    display: inline-block;
+    border-color: #4BACCE;
+    border-width: 2px; }
+  .hr-default .hr-secundario {
+    margin-bottom: 30px;
+    display: inline-block;
+    border-color: #C4C4C4;
+    border-width: 2px; }
 
 .img-default-center {
   text-align: center;

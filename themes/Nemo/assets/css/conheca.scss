@@ -1,14 +1,19 @@
 .conheca-quadro{
     height: 671px;
     width: 100%;
-    background-color: #FFF;
+    background-color: transparent;
+  
 }
 
+.logo-grande{
+    background-image: url("../img/logo-grande.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .titulo-conheca{
     font-family: Titillium Web;
     color:#278090;
     font-size: 45px;
-    margin-left: 120px;
     margin-top: 126px;
 }
 
@@ -21,11 +26,14 @@
 .img-quadrada{
     height: 52px;
     width: 52px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
-
 .img-retangular{
     height: 52px;
     width: 38px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .text-conheca{
@@ -42,4 +50,19 @@
 .celula{
     float: left;
     padding-left: 126px;
+}
+
+.card{
+    border: 0px;
+    background-color: transparent;
+}
+
+.card-deck{
+    margin-top: 50px;
+}
+
+.faixa-intersep{
+    height: 297px;
+    width: 100%;
+    background-color: #383838;
 }

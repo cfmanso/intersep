@@ -7,13 +7,14 @@
 
         <div class="site-content">
             <?php include_once("sections/highlights.php"); ?>
-            
+            <div class="logo-grande">
             <div class="container">    
 
                 <?php include_once("sections/section-conheca.php"); ?>
-                
-                <?php include_once("sections/section-projetos.php"); ?>
-
+            </div>
+            </div>
+            <div class="faixa-intersep"> 
+        
             </div>
         </div>
 
