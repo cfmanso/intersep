@@ -16,7 +16,9 @@
             <div class="faixa-intersep"> 
                 <div class="nome-faixa"> 
                     Interoperabilidade Semântica de Informações em Segurança Pública
-                    <div class="sub-nome-faixa"> Um projeto: </div>
+                    <div class="sub-nome-faixa"> Um projeto: 
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/nemo-sobre.svg" class="img-logo">
+                    </div>
                 </div>
             </div>
         </div>
