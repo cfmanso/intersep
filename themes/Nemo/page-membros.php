@@ -10,7 +10,19 @@ get_header();
         <?php include_once("sections/navbar.php"); ?>
 
         <div class="site-content">
-        <?php include_once("sections/headerPag.php"); ?>
+        
+            <div id="headerPag" class="">
+
+                <div class="jumbotron jumbotron-fluid headerPag-img">
+                    <div class="container">
+                        <div class="col">
+                            <h1 style="margin-top: 350px;color: #5DC1D3;font-size: 72px;">Equipe</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
             <div class="container text-sobre">
                 <div class="body-sobre">
                                        
@@ -33,32 +45,57 @@ get_header();
                     
                     <div style="text-align: center">
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members">
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m1.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m1.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">André Luiz de Castro Leal</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m2.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m2.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Archimedes Alves Detoni</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m3.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m3.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Fernanda Araújo Baião Amorim</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m4.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m4.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Giancarlo Guizzardi </p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m5.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m5.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">João Paulo Andrade Almeida</p>
+                                </div>
                             </div>
                         </div>
 
@@ -66,55 +103,147 @@ get_header();
 
                     <div style="text-align: center">
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m6.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m6.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Maxwell Monteiro</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m7.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m7.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Monalessa Perini Barcellos</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m8.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m8.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Renata Silva Souza Guizzardi</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m9.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m9.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Ricardo de Almeida Falbo</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-2 div-img-members">
-                            <div class="sobre-img-members" >
-                                <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m10.png">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m10.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Vítor Estêvão Silva Souza</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
+            </div>
+
+            <div class="area-bolsistas">
+                <div class="container text-sobre" style="margin-top:0px; margin-bottom: 0px; padding-top:0px;padding-bottom:0px;">
+
+                    <div class="body-sobre">
+                        <div class="row canva-default" style="margin:0px;">
+                            <!-- <div class="col-1"></div> -->
+                            <div class="col-5 canva-inf-archive">
+                                <p class="text-principal">
+                                    Bolsistas
+                                </p>
+                                
+                            </div>
+                            <div class="col-1"></div>
+                            <div class="col-6"></div>
+                        </div>
+
+                        <div style="text-align: center">
+                            <div class="col-2 div-img-members">
+                                <div class="card sobre-img-bolsistas">
+                                    <div class="circle-backgroud">
+                                        <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b1.png">
+                                    </div>
+                                    <div class="card-body cardbody-noPadding">
+                                        <p class="card-title">Beatriz Feijó de Sousa</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2 div-img-members">
+                                <div class="card sobre-img-bolsistas">
+                                    <div class="circle-backgroud">
+                                        <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b2.png">
+                                    </div>
+                                    <div class="card-body cardbody-noPadding">
+                                        <p class="card-title">Carolina de Freitas Manso</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2 div-img-members">
+                                <div class="card sobre-img-bolsistas">
+                                    <div class="circle-backgroud">
+                                        <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b3.png">
+                                    </div>
+                                    <div class="card-body cardbody-noPadding">
+                                        <p class="card-title">Eduardo Montagner de Moraes</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2 div-img-members">
+                                <div class="card sobre-img-bolsistas">
+                                    <div class="circle-backgroud">
+                                        <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b4.png">
+                                    </div>
+                                    <div class="card-body cardbody-noPadding">
+                                        <p class="card-title">Murilo Borghardt Scalser</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2 div-img-members">
+                                <div class="card sobre-img-bolsistas">
+                                    <div class="circle-backgroud">
+                                        <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b5.png">
+                                    </div>
+                                    <div class="card-body cardbody-noPadding">
+                                        <p class="card-title">Nayara Cavalcanti de Sá Leitão</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                        </div>
+
+                        
+                    </div>
                 
-
-                <div class="body-sobre">
-                    <div class="row canva-default" style="margin:0px;">
-                        <!-- <div class="col-1"></div> -->
-                        <div class="col-5 canva-inf-archive">
-                            <p class="text-principal">
-                                Bolsistas
-                            </p>
-                            
-                        </div>
-                        <div class="col-1"></div>
-                        <div class="col-6"></div>
-                    </div>
-
-                    
                 </div>
+            </div>
+
+            <div class="container text-sobre">
 
                 <div class="body-sobre">
                     <div class="row canva-default" style="margin:0px;">
@@ -128,10 +257,150 @@ get_header();
                         <div class="col-1"></div>
                         <div class="col-6"></div>
                     </div>
+                 
+                    <div style="text-align: center">
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex1.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Camila Zacché de Aguiar </p>
+                                </div>
+                            </div>
+                        </div>
 
-                    
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex2.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Cássio Chaves Reginato</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex3.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">César Henrique Bernabé</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex4.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Ding Yih An </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex5.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Ernani Gaspar Martins dos Santos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div style="text-align: center">
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex6.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Gabriela Corrêa De Carli Ramos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex7.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Gabriel Martins Miranda</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex8.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Jeferson de Oliveira Batista</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex9.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Jordana Sarmenghi Salamon</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex10.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Laylla Duarte de Cerqueira</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center">
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex11.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Lucas Augusto Santos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex12.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Silas Louzada Campos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
 
                 </div>
+
 
                 <div class="body-sobre">
                     <div class="row canva-default" style="margin:0px;">
@@ -144,6 +413,19 @@ get_header();
                         </div>
                         <div class="col-1"></div>
                         <div class="col-6"></div>
+                    </div>
+
+                    <div style="text-align: center">
+                        <div class="col-2 div-img-members">
+                            <div class="card sobre-img-members">
+                                <div class="circle-backgroud">
+                                    <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exv1.png">
+                                </div>
+                                <div class="card-body cardbody-noPadding">
+                                    <p class="card-title">Bruno Manzoli do Nascimento</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     

@@ -10,84 +10,33 @@ get_header();
         <?php include_once("sections/navbar.php"); ?>
 
         <div class="site-content">
-        <?php include_once("sections/headerPag.php"); ?>
-            <div class="container text-sobre">
-                <div class="body-sobre">
-                                       
-                    <p>
-                    A equipe formada por membros do NEMO/UFES e seus parceiros contam com alguns dos principais especialistas em nível internacional nas áreas de engenharia de modelos de informação de referência (ontologias), modelagem organizacional, e no uso desses modelos para a construção de visões unificadas de informação a partir de silos autônomos de dados. Teorias e tecnologias produzidas por esse grupo vêm sendo utilizadas por anos pelo governo federal no Brasil, bem como por governos europeus e norteamericano. No que tange esse projeto em particular, a equipe se coloca à disposição para auxiliar da maneira que for possível a transferência do conhecimento gerado para benefício da sociedade capixaba.
-                    </p>
-                </div>
+        
+            <div id="headerPag" class="">
 
-                <div class="body-sobre">
-                    <div class="row canva-default" style="margin:0px;">
-                        <!-- <div class="col-1"></div> -->
-                        <div class="col-5 canva-inf-archive">
-                            <p class="text-principal">
-                                Membros
-                            </p>
+                <div class="jumbotron jumbotron-fluid headerPag-img">
+                    <div class="container">
+                        <div class="col">
+                            <h1 style="margin-top: 350px;color: #5DC1D3;font-size: 72px;">Sobre</h1>
                         </div>
-                        <div class="col-1"></div>
-                        <div class="col-6"></div>
                     </div>
-
-                    
-                </div>
-
-                <div class="body-sobre">
-                    <div class="row canva-default" style="margin:0px;">
-                        <!-- <div class="col-1"></div> -->
-                        <div class="col-5 canva-inf-archive">
-                            <p class="text-principal">
-                                Bolsistas
-                            </p>
-                            
-                        </div>
-                        <div class="col-1"></div>
-                        <div class="col-6"></div>
-                    </div>
-
-                    
-                </div>
-
-                <div class="body-sobre">
-                    <div class="row canva-default" style="margin:0px;">
-                        <!-- <div class="col-1"></div> -->
-                        <div class="col-5 canva-inf-archive">
-                            <p class="text-principal">
-                                Ex-Bolsistas
-                            </p>
-                            
-                        </div>
-                        <div class="col-1"></div>
-                        <div class="col-6"></div>
-                    </div>
-
-                    
-
-                </div>
-
-                <div class="body-sobre">
-                    <div class="row canva-default" style="margin:0px;">
-                        <!-- <div class="col-1"></div> -->
-                        <div class="col-5 canva-inf-archive">
-                            <p class="text-principal">
-                                Ex-Voluntários
-                            </p>
-                            
-                        </div>
-                        <div class="col-1"></div>
-                        <div class="col-6"></div>
-                    </div>
-
-                    
-
                 </div>
 
             </div>
 
-            
-                        
+            <div class="container text-sobre">
+                <div class="body-sobre">
+                                       
+                    <p>
+                    A partir de demanda da Secretaria de Ações Estratégicas da gestão 2011-2014 do governador Renato Casagrande, a FAPES lançou o edital no 013/2014 - Pesquisa Aplicada a Políticas Públicas Estaduais, visando a geração de conhecimento técnico-científico para subsidiar a formulação de políticas públicas no estado do Espírito Santo, no tema “Políticas e Práticas para Prevenção, Proteção e Defesa Social”. 
+                    </p>
+                    <p>
+                    O projeto INTERSEP foi contemplado com recursos do referido edital no total de R$ 644.250,00, tendo início em novembro/2015 e com previsão de conclusão em outubro/2019. O projeto envolve 6 professores do NEMO/UFES, 2 professores do IFES, 1 pesquisadora da PUC-RIO, além de diversos alunos de doutorado, mestrado e graduação da UFES, tanto bolsistas quanto voluntários. 
+                    </p>
+                    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/imgProjeto.png"></div>
+                </div>
+
+            </div>
+        
         </div>
         <div class="site-cache" id="site-cache"></div>
     </div>
