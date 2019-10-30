@@ -53,25 +53,26 @@ a{
             float: right;
         }
     }
+}
 
-    .hr-default{
+.hr-default{
+    padding: 0px;
+    display: block;
+
+    .hr-principal{
         padding: 0px;
-        display: block;
+        width: 50px;
+        //margin-bottom: 30px;
+        display: inline-block;
+        border-color: #4BACCE;
+        border-width: 2px;
+    }
 
-        .hr-principal{
-            padding: 0px;
-            margin-bottom: 30px;
-            display: inline-block;
-            border-color: $verde-line;
-            border-width: 3px;
-        }
-
-        .hr-secundario{
-            margin-bottom: 30px;
-            display: inline-block;
-            border-color: $cinza-line-default;
-            border-width: 2px;
-        }
+    .hr-secundario{
+        margin-bottom: 30px;
+        display: inline-block;
+        border-color: $cinza-line-default;
+        border-width: 2px;
     }
 }
 
