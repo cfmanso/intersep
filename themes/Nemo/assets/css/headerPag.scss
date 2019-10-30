@@ -14,7 +14,7 @@ $jumbotron-height:480px;
     height: $jumbotron-height;
     background-image: url('../img/headerPag.svg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
 
     .text{
@@ -33,16 +33,81 @@ $jumbotron-height:480px;
 
 .img-circle-members{
     width: 100%;
+    border: 2px solid #5DC1D3;
     border-radius: 50%;
     background-size: cover;
 }
-.sobre-img-members{
-    max-width: 130px;
+
+.img-circle-members:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=30);
 }
+.circle-backgroud:hover{
+    border-radius: 50%;
+    background-color: #5DC1D3;
+}
+
+.sobre-img-members{
+    // border-radius: 50%;
+    max-width: 130px;
+    border: 0px;
+    color: #827B7B;
+    // background-color: #5DC1D3;
+}
+// ===============
+
+.img-circle-members{
+    width: 100%;
+    border: 2px solid #5DC1D3;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.img-circle-members:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=30);
+}
+
+.circle-backgroud:hover{
+    border-radius: 50%;
+    background-color: #5DC1D3;
+}
+
+.sobre-img-members{
+    // border-radius: 50%;
+    max-width: 130px;
+    border: 0px;
+    color: #827B7B;
+    // background-color: #5DC1D3;
+}
+
+// ===============
+.sobre-img-bolsistas{
+    // border-radius: 50%;
+    max-width: 130px;
+    border: 0px;
+    color: #5DC1D3;
+    // background-color: #5DC1D3;
+}
+
+.cardbody-noPadding{
+    padding: 2px;
+    font-weight: bold;
+    
+}
+
+.card{
+    background-color: transparent;
+}
+
 .div-img-members{
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.area-bolsistas{
+    background-image: url("../img/fundoBolsistas.svg");
 }
 
     .btn-outline-primary{
