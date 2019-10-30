@@ -62,6 +62,8 @@
   color: #5DC1D3;
   font-size: 30px;
   text-align: center;
-  margin-top: 75px; }
+  padding: 75px; }
+  .nome-faixa .sub-nome-faixa {
+    font-size: 20px; }
 
 /*# sourceMappingURL=conheca.css.map */
