@@ -63,7 +63,7 @@ get_header();
                             <li>Implementação de um protótipo demonstrando uma integração e visão unificada sobre os dados distribuídos em vários silos, que permite a um gestor do Governo do ES obter respostas a questões que são possíveis apenas a partir da integração bem fundamentada dos dados dos diversos sistemas de informação do PCDV. O protótipo, disponível em http://dev.nemo.inf.ufes.br:8180/intersep/ (usuário: admin, senha: admin), utiliza dados fictícios, porém é baseado na estrutura real dos bancos de dados do DEON e do SIEP; </li>
                             <li>Publicações científicas com os resultados do projeto. </li>
                         </ol>
-                        <button class="btn btn-default" type="button">Click Me!</button> 
+                        <button type="button" class="btn btn-outline-primary">DOWNLOAD</button>
                     </div>
 
                 </div>

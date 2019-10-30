@@ -77,6 +77,10 @@
 .area-bolsistas {
   background-image: url("../img/fundoBolsistas.svg"); }
 
+ol li::marker {
+  color: #5DC1D3;
+  font-weight: bold; }
+
 .btn-outline-primary {
   color: #5DC1D3;
   border-color: #5DC1D3;

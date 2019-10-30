@@ -17,7 +17,7 @@ $jumbotron-height:480px;
     background-position: bottom;
     background-size: cover;
 
-    
+
     .text{
         margin-top: 150px;
         color: #FFF;
@@ -109,6 +109,11 @@ $jumbotron-height:480px;
 
 .area-bolsistas{
     background-image: url("../img/fundoBolsistas.svg");
+}
+
+ol li::marker{
+    color: #5DC1D3;
+    font-weight: bold;
 }
 
     .btn-outline-primary{
