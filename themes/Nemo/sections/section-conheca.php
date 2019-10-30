@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/network" class="img-quadrada">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/network.svg" class="img-quadrada">
                     <div class="card-body">
                     <h5 class="subtitulo-conheca">Membros</h5>
                     <div class="hr-default"> <hr class="hr-principal"></div>
@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/publications" class="img-retangular">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/publications.svg" class="img-retangular">
                     <div class="card-body">
                     <h5 class="subtitulo-conheca">Publicações</h5>
                     <div class="hr-default"> <hr class="hr-principal"></div>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/presentation" class="img-quadrada">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/presentation.svg" class="img-quadrada">
                     <div class="card-body">
                     <h5 class="subtitulo-conheca">Abordagens</h5>
                     <div class="hr-default"> <hr class="hr-principal"></div>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/worker" class="img-quadrada">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/worker.svg" class="img-quadrada">
                     <div class="card-body">
                     <h5 class="subtitulo-conheca">Protótipo</h5>
                     <div class="hr-default"> <hr class="hr-principal"></div>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/discussion" class="img-quadrada">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/discussion.svg" class="img-quadrada">
                     <div class="card-body">
                     <h5 class="subtitulo-conheca">Contato</h5>
                     <div class="hr-default"> <hr class="hr-principal"></div>

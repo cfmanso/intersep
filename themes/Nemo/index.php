@@ -14,7 +14,9 @@
             </div>
             </div>
             <div class="faixa-intersep"> 
-        
+                <div class="nome-faixa"> 
+                    Interoperabilidade Semântica em Segurança Pública
+                </div>
             </div>
         </div>
 

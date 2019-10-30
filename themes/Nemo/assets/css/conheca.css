@@ -1,7 +1,8 @@
 .conheca-quadro {
   height: 671px;
   width: 100%;
-  background-color: transparent; }
+  background-color: transparent;
+  margin-bottom: 158px; }
 
 .logo-grande {
   background-image: url("../img/logo-grande.svg");
@@ -55,5 +56,12 @@
   height: 297px;
   width: 100%;
   background-color: #383838; }
+
+.nome-faixa {
+  font-family: Titillium Web;
+  color: #5DC1D3;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 75px; }
 
 /*# sourceMappingURL=conheca.css.map */
