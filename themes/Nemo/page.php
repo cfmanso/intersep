@@ -16,7 +16,7 @@ get_header();
                 <div class="jumbotron jumbotron-fluid headerPag-img">
                     <div class="container">
                         <div class="col">
-                            <h1 style="margin-top: 350px;color: #5DC1D3;font-size: 72px;"><?php echo get_the_title()?></h1>
+                            <h1 class="titulo-header"><?php echo get_the_title()?></h1>
                         </div>
                     </div>
                 </div>

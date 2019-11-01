@@ -131,6 +131,11 @@ ol li::marker {
   vertical-align: middle;
   margin-top: 150px; }
 
+.titulo-header {
+  margin-top: 350px;
+  color: #5DC1D3;
+  font-size: 72px; }
+
 @media only screen and (max-width: 768px) {
   .headerPag-img {
     padding: 0px;
@@ -139,7 +144,8 @@ ol li::marker {
     height: 480px;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: cover; }
+    background-size: cover;
+    margin-top: -66px; }
     .headerPag-img .text {
       margin-top: 150px;
       color: #FFF;
@@ -148,6 +154,11 @@ ol li::marker {
       margin-top: 25px;
       background-color: #ABC456;
       border: 0px;
-      color: #FFF; } }
+      color: #FFF; }
+
+  .titulo-header {
+    margin-top: 250px;
+    color: #5DC1D3;
+    font-size: 72px; } }
 
 /*# sourceMappingURL=headerPag.css.map */
