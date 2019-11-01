@@ -5,14 +5,17 @@
 
         <?php include_once("sections/navbar.php"); ?>
 
-        <div class="site-content">
-        <?php include_once("sections/section-breadcrumb.php"); ?>
-            <div class="container">
+        <div id="headerPag" class="">
 
-                Erro   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/404.png" />
+                <div class="jumbotron jumbotron-fluid headerPag-img">
+                    <div class="container">
+                        <div class="col">
+                            <h1 style="margin-top: 350px;color: #5DC1D3;font-size: 72px;">Error 404</h1>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-        </div>
         <div class="site-cache" id="site-cache"></div>
     </div>
 </div>

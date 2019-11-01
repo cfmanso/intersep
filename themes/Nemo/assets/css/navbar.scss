@@ -157,12 +157,19 @@ $mobile-padding: 20px;
   }
   
   .header__icon {
+    
+    background-color:#fff;
+    border-radius: 6px;
+    margin: 10px;
+    padding: -10px;
+
+height: 58px;
     position: relative;
     display: block;
     float: left;
-    width: 50px;
-    height: $header-height;
-    color: #000;
+    width: 48px;
+    height: 60px;
+    color:#000;
     
     cursor: pointer;
     

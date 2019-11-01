@@ -1,7 +1,7 @@
 <?php include_once("language-navbar.php") ?>
 <header class="header">
 
-	<!-- <a href="#" class="header__icon" id="header__icon"></a> -->
+	<a href="#" class="header__icon" id="header__icon"></a>
 	<!-- <a href="<?php echo get_home_url(); ?>" class="header__logo">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/nemo_horizotal.png" />
 	</a> -->
