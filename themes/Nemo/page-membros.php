@@ -44,7 +44,7 @@ get_header();
                     </div>
                     
                     <div style="text-align: center">
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m1.png">
@@ -55,7 +55,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m2.png">
@@ -66,7 +66,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m3.png">
@@ -77,7 +77,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m4.png">
@@ -88,7 +88,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m5.png">
@@ -102,7 +102,7 @@ get_header();
                     </div>
 
                     <div style="text-align: center">
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m6.png">
@@ -113,7 +113,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m7.png">
@@ -124,7 +124,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m8.png">
@@ -135,7 +135,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m9.png">
@@ -146,7 +146,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/m10.png">
@@ -179,7 +179,7 @@ get_header();
                         </div>
 
                         <div style="text-align: center">
-                            <div class="col-2 div-img-members">
+                            <div class="col-lg-2 col-sm-12 div-img-members">
                                 <div class="card sobre-img-bolsistas">
                                     <div class="circle-backgroud">
                                         <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b1.png">
@@ -190,7 +190,7 @@ get_header();
                                 </div>
                             </div>
 
-                            <div class="col-2 div-img-members">
+                            <div class="col-lg-2 col-sm-12 div-img-members">
                                 <div class="card sobre-img-bolsistas">
                                     <div class="circle-backgroud">
                                         <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b2.png">
@@ -201,7 +201,7 @@ get_header();
                                 </div>
                             </div>
 
-                            <div class="col-2 div-img-members">
+                            <div class="col-lg-2 col-sm-12 div-img-members">
                                 <div class="card sobre-img-bolsistas">
                                     <div class="circle-backgroud">
                                         <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b3.png">
@@ -212,7 +212,7 @@ get_header();
                                 </div>
                             </div>
 
-                            <div class="col-2 div-img-members">
+                            <div class="col-lg-2 col-sm-12 div-img-members">
                                 <div class="card sobre-img-bolsistas">
                                     <div class="circle-backgroud">
                                         <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b4.png">
@@ -223,7 +223,7 @@ get_header();
                                 </div>
                             </div>
 
-                            <div class="col-2 div-img-members">
+                            <div class="col-lg-2 col-sm-12 div-img-members">
                                 <div class="card sobre-img-bolsistas">
                                     <div class="circle-backgroud">
                                         <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/b5.png">
@@ -259,7 +259,7 @@ get_header();
                     </div>
                  
                     <div style="text-align: center">
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex1.png">
@@ -270,7 +270,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex2.png">
@@ -281,7 +281,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex3.png">
@@ -292,7 +292,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex4.png">
@@ -303,7 +303,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex5.png">
@@ -317,7 +317,7 @@ get_header();
                     </div>
 
                     <div style="text-align: center">
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex6.png">
@@ -328,7 +328,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex7.png">
@@ -339,7 +339,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex8.png">
@@ -350,7 +350,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex9.png">
@@ -361,7 +361,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex10.png">
@@ -374,7 +374,7 @@ get_header();
                     </div>
 
                     <div style="text-align: center">
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex11.png">
@@ -385,7 +385,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ex12.png">
@@ -416,7 +416,7 @@ get_header();
                     </div>
 
                     <div style="text-align: center">
-                        <div class="col-2 div-img-members">
+                        <div class="col-lg-2 col-sm-12 div-img-members">
                             <div class="card sobre-img-members">
                                 <div class="circle-backgroud">
                                     <img class="img-circle-members" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exv1.png">
