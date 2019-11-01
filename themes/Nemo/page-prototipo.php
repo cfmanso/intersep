@@ -52,7 +52,7 @@ get_header();
                             Você encontra o contato e endereço do projeto na barra inferior do site. 
                         </p>
                     </div>
-                    <div class="col-7" style="display:inline-block; vertical-align: top;">
+                    <div class="col-lg-7 col-sm-12" style="display:inline-block; vertical-align: top;">
                         <div style="text-align: center;">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/P01.svg" style="width: 100%; border: 1px solid #5DC1D3;">
                         </div>
@@ -62,7 +62,7 @@ get_header();
 
                 <!-- ------------------------------------ -->
                 <div style="margin-top: 50px;">
-                <div class="col-4" style="display:inline-block; text-align: left;">
+                <div class="col-lg-4 col-sm-12" style="display:inline-block; text-align: left;">
                         <div class="row canva-default" style="margin:10px;">
                             <!-- <div class="col-1"></div> -->
                             <div class="col canva-inf-archive">
@@ -79,7 +79,7 @@ get_header();
                             Defina o ano de pesquisa e acompanhe o gráfico para informações.
                         </p>
                     </div>
-                    <div class="col-7" style="display:inline-block; vertical-align: top;">
+                    <div class="col-lg-7 col-sm-12" style="display:inline-block; vertical-align: top;">
                         <div style="text-align: center;">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/P02.svg" style="width: 100%; border: 1px solid #5DC1D3;">
                         </div>
@@ -89,7 +89,7 @@ get_header();
 
                 <!-- ------------------------------------ -->
                 <div style="margin-top: 50px;">
-                <div class="col-4" style="display:inline-block; text-align: left;">
+                <div class="col-lg-4 col-sm-12" style="display:inline-block; text-align: left;">
                         <div class="row canva-default" style="margin:10px;">
                             <!-- <div class="col-1"></div> -->
                             <div class="col canva-inf-archive">
@@ -106,7 +106,7 @@ get_header();
                         Busque informações utilizando a <tag style="color: #278090; ">Busca por CPF</tag> ou <tag style="color: #278090; ">Busca por Processo</tag>.
                         </p>
                     </div>
-                    <div class="col-7" style="display:inline-block; vertical-align: top;">
+                    <div class="col-lg-7 col-sm-12" style="display:inline-block; vertical-align: top;">
                         <div style="text-align: center;">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/P03.svg" style="width: 100%; border: 1px solid #5DC1D3;">
                         </div>
@@ -116,7 +116,7 @@ get_header();
 
                 <!-- ------------------------------------ -->
                 <div style="margin-top: 50px;">
-                <div class="col-4" style="display:inline-block; text-align: left;">
+                <div class="col-lg-4 col-sm-12" style="display:inline-block; text-align: left;">
                         <div class="row canva-default" style="margin:10px;">
                             <!-- <div class="col-1"></div> -->
                             <div class="col canva-inf-archive">
@@ -130,7 +130,7 @@ get_header();
                         </p>
 
                     </div>
-                    <div class="col-7" style="display:inline-block; vertical-align: top;">
+                    <div class="col-lg-7 col-sm-12" style="display:inline-block; vertical-align: top;">
                         <div style="text-align: center;">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/P04.svg" style="width: 100%; border: 1px solid #5DC1D3;">
                         </div>

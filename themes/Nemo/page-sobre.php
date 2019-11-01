@@ -33,7 +33,7 @@ get_header();
                     O projeto INTERSEP foi contemplado com recursos do referido edital no total de R$ 644.250,00, tendo início em novembro/2015 e com previsão de conclusão em outubro/2019. O projeto envolve 6 professores do NEMO/UFES, 2 professores do IFES, 1 pesquisadora da PUC-RIO, além de diversos alunos de doutorado, mestrado e graduação da UFES, tanto bolsistas quanto voluntários. 
                     </p>
                     <div style="text-align: center;">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/imgProjeto.png">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/imgProjeto.png" width="100%">
                     </div>
                     <br>
                     <p>
@@ -63,7 +63,9 @@ get_header();
                             <li>Implementação de um protótipo demonstrando uma integração e visão unificada sobre os dados distribuídos em vários silos, que permite a um gestor do Governo do ES obter respostas a questões que são possíveis apenas a partir da integração bem fundamentada dos dados dos diversos sistemas de informação do PCDV. O protótipo, disponível em <a style="color: #278090;" target="_blank" href="http://dev.nemo.inf.ufes.br:8180/intersep/">http://dev.nemo.inf.ufes.br:8180/intersep/</a> (usuário: admin, senha: admin), utiliza dados fictícios, porém é baseado na estrutura real dos bancos de dados do DEON e do SIEP; </li>
                             <li>Publicações científicas com os resultados do projeto. </li>
                         </ol>
+                        <a target="_blank" href="https://nemo.inf.ufes.br/publications/">
                         <button type="button" class="btn btn-outline-primary">DOWNLOAD</button>
+                        </a>
                     </div>
 
                 </div>
