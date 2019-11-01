@@ -123,6 +123,9 @@ ol li::marker {
   .titulo-header {
     margin-top: 250px;
     color: #5DC1D3;
-    font-size: 72px; } }
+    font-size: 72px; }
+
+  .div-img-members {
+    padding-left: 25%; } }
 
 /*# sourceMappingURL=headerPag.css.map */
