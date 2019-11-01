@@ -176,23 +176,22 @@ ol li::marker{
     .headerPag-img{
         padding: 0px;
         min-height: $jumbotron-height;
-        height: 100%;
-        background-image: url('../img/UFES_front.png');
+        width: 100%;
+        height: $jumbotron-height;
+        // background-image: url('../img/headerPag.svg');
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
+    
     
         .text{
             margin-top: 150px;
             color: #FFF;
-            font-size: 100%;
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
         .buttom-highlights{
-            margin: 15px;
             margin-top: 25px;
             background-color: $verde-quase-nemo;
-            font-size: 100%;
             border: 0px;
             color: #FFF;
         }

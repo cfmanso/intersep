@@ -35,7 +35,7 @@ get_header();
                 <div class="container" style="margin-top:50px; text-align: center;">
                 <!-- ------------------------------------ -->
                     <div style="margin-top: 50px;">
-                    <div class="col-4" style="display:inline-block; text-align: left;">
+                    <div class="col-lg-4 col-sm-12" style="display:inline-block; text-align: left;">
                         <div class="row canva-default" style="margin:10px;">
                             <!-- <div class="col-1"></div> -->
                             <div class="col canva-inf-archive">
